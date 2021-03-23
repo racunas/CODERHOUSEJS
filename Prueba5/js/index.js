@@ -24,7 +24,7 @@ class Soap {
 
 }
 
-let createSoap = function() {
+const createSoap = function() {
  
     let image = prompt("Ingresa el url de la imagen: ");
     let tittle = prompt("Ingresa el nombre del producto: ");
