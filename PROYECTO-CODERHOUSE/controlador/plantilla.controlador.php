@@ -7,7 +7,7 @@ class controladorPlantilla{
     }
 
     public static function ruta(){
-        return 'http://localhost:8888/GitHub/CODERHOUSEJS/proyectoCoderhouse/';
+        return 'http://localhost:8888/GitHub/CODERHOUSEJS/PROYECTO-CODERHOUSE/';
     }
 }
 
