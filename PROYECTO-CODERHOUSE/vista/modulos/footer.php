@@ -1,12 +1,13 @@
-<div class="container-fluid separador-footer pt-5 pb-5" style="background-color: #b1b2aa;">
+<div class="container-fluid separador-footer pt-5 pb-5" style="background-color: #b1b2aa;" id="contacto">
     <div class="container">
         <div class="row text-center">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <img src="vista/assets/images/aria_icono.svg" style="max-width: 30%; line-height: 80px;" alt="">
-                <p class="text-left font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi est laudantium in voluptatibus, quo culpa quod, repellat eligendi non porro quas doloribus distinctio fugit mollitia earum reiciendis debitis, tenetur dicta?</p>
+                <h1 class="font" style="font-weight: lighter; line-height: 80px;">Human</h1>
+                <p class="font">“Nos adaptamos a tus necesidades.”</p>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="position: unset!important;">
-                <h1 style="font-style: italic; font-weight: lighter; line-height: 80px;" >Contacto</h1>
+                <h1 style="font-weight: lighter; line-height: 80px;" >Contacto</h1>
                 <div class="row">
                     <div class="col-12 font">
                         <i class='bx bx-been-here' style="font-size: 25px; padding-right: 10px; font-weight: bold;"></i>Ciudad de México
@@ -20,7 +21,7 @@
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <h1 style="font-style: italic; font-weight: lighter; line-height: 80px;">Síguenos</h1>
+                <h1 style="font-weight: lighter; line-height: 80px;">Síguenos</h1>
                 <div class="row espacio-redes">
                     <div class="col-4">
                         <a href="#" class="iconos-redes"><i class='bx bxl-facebook' ></i></a>

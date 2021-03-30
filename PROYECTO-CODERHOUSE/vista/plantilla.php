@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/slider.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/products.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/footer.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/valores.css">
 
     <!--Font-->
 
@@ -37,6 +38,7 @@
 
     <?php
       include 'modulos/menu.php';
+      include 'modulos/valores.php';
       include 'modulos/slider.php';
       include 'modulos/products.php';
       include 'modulos/footer.php';
@@ -59,6 +61,7 @@
     <script src="<?php echo $url; ?>vista/assets/js/slider.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/products.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/footer.js"></script>
+    <script src="<?php echo $url; ?>vista/assets/js/valores.js"></script>
 
     <script>
       var url = "<?php echo $url; ?>";
