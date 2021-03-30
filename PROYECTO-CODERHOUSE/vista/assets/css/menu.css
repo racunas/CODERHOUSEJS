@@ -90,6 +90,10 @@ a.active,a:hover {
         transition: all .5s;
     }
 
+    nav ul {
+        margin: 0px;
+    }
+
     nav ul li {
         display: block;
     }
@@ -122,6 +126,10 @@ a.active,a:hover {
         transition: all .5s;
     }
 
+    nav ul {
+        margin: 0px;
+    }
+
     nav ul li {
         display: block;
     }
@@ -152,6 +160,10 @@ a.active,a:hover {
         left: -100%;
         text-align: center;
         transition: all .5s;
+    }
+
+    nav ul {
+        margin: 0px;
     }
 
     nav ul li {
