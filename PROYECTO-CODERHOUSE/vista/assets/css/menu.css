@@ -2,6 +2,8 @@ nav {
     background: #F7F4F0;
     height: 80px;
     width: 100%;
+    position: relative;
+    z-index: 10;
 }
 
 .menu-logo {

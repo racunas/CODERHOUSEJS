@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/global.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/menu.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/slider.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/products.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>vista/assets/css/footer.css">
 
     <!--Font-->
 
@@ -36,6 +38,8 @@
     <?php
       include 'modulos/menu.php';
       include 'modulos/slider.php';
+      include 'modulos/products.php';
+      include 'modulos/footer.php';
     ?>
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -53,6 +57,8 @@
     <script src="<?php echo $url; ?>vista/assets/js/plantilla.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/menu.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/slider.js"></script>
+    <script src="<?php echo $url; ?>vista/assets/js/products.js"></script>
+    <script src="<?php echo $url; ?>vista/assets/js/footer.js"></script>
 
     <script>
       var url = "<?php echo $url; ?>";

@@ -8,9 +8,14 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background: #F7F4F0;
+    /* background: #F7F4F0; */
+    background: transparent;
 }
 
 body {
     background-color: #F7F4F0 !important;
+}
+
+a{
+    color: #373d31!important;
 }

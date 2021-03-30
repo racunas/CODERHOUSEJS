@@ -1,0 +1,13 @@
+.card {
+    border-radius: 0px!important;
+    background: transparent;
+    border-style: solid;
+    border-color: #868f82;
+    border-width: 1px;
+}
+
+.border-image-product {
+    border-style: solid solid none solid;
+    border-color: #868f82;
+    border-width: 1px;
+}
