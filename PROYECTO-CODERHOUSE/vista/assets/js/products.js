@@ -1,6 +1,6 @@
-const ProductsProducts = JSON.parse(localStorage.getItem("products"));
+const soapProducts = JSON.parse(localStorage.getItem("products"));
 
-Products.forEach (Element => {
+soapProducts.forEach (Element => {
     
     let firstContainer = document.createElement("div");
     firstContainer.setAttribute("class","col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 pb-5 font");
