@@ -57,6 +57,7 @@
     <!-- JS PROPIO -->
 
     <script src="<?php echo $url; ?>vista/assets/js/plantilla.js"></script>
+    <script src="<?php echo $url; ?>vista/assets/js/datos.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/menu.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/slider.js"></script>
     <script src="<?php echo $url; ?>vista/assets/js/products.js"></script>
