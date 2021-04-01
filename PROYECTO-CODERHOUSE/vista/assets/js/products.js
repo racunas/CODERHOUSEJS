@@ -3,7 +3,7 @@ const soapProducts = JSON.parse(localStorage.getItem("products"));
 soapProducts.forEach (Element => {
     
     let firstContainer = document.createElement("div");
-    firstContainer.setAttribute("class","col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 pb-5 font");
+    firstContainer.setAttribute("class","col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 pb-5 font animations");
     
     let mainImage = document.createElement("img");
     mainImage.setAttribute("src",`${Element.image}`);

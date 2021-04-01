@@ -11,3 +11,13 @@
     border-color: #868f82;
     border-width: 1px;
 }
+
+.animations {
+    transition: .5s;
+    transition-delay: .2s;
+}
+
+.animations:hover {
+    transform: scale(1.05, 1.05);
+    transition: .5;
+}
