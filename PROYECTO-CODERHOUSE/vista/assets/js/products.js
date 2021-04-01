@@ -29,7 +29,7 @@ Products.forEach (Element => {
 
     let firstSpan = document.createElement("span");
     firstSpan.setAttribute("class","d-block text-left p-3");
-    firstSpan.textContent = `${Element.description}`;
+    firstSpan.textContent = `${Element.soapDescription}`;
     fourthContainer.appendChild(firstSpan);
 
     let fifthContainer = document.createElement("div");

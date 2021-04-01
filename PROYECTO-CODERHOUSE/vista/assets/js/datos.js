@@ -1,8 +1,8 @@
 class Product {
-    constructor(image,soapName,description,price,relevant) {
+    constructor(image,soapName,soapDescription,price,relevant) {
         this.image = image;
         this.soapName = soapName;
-        this.description = description;
+        this.soapDescription = soapDescription;
         this.price = price;
         this.relevant = relevant;
     }
