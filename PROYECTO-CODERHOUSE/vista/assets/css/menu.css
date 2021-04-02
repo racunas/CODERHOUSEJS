@@ -1,13 +1,13 @@
 nav {
     background: #F7F4F0;
-    height: 80px;
+    height: 100px;
     width: 100%;
     position: relative;
     z-index: 10;
 }
 
 .menu-logo {
-    height: 125%;
+    height: 108%;
     line-height: 80px;
     padding: 0 70px;
 }
@@ -42,16 +42,35 @@ a.active,a:hover {
     border-style: solid;
     border-width: 0 0 3px 0;
     color: #373d31;
-    transition: .5s;
     font-size: 18px;
     font-weight: normal;
+}
+
+/* a.active{
+    transition: .5s;
+}
+
+a.active:hover{
+    transition: .5s;
+} */
+
+ul:hover li a {
+    filter: blur(1.5px);
+    opacity: 1;
+    transition: .5s;
+}
+
+ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+    transition: .5s;
 }
 
 .menu-icon {
     background: transparent;
     font-size: x-large;
     transition: .5s;
-
 }
 
 .menu-icon:hover {
@@ -86,10 +105,11 @@ a.active,a:hover {
         width: 100%;
         height: 100vh;
         background: #F7F4F0;
-        top: 80px;
+        top: 100px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        transition-delay: .1s;
     }
 
     nav ul {
@@ -122,10 +142,11 @@ a.active,a:hover {
         width: 100%;
         height: 100vh;
         background: #F7F4F0;
-        top: 80px;
+        top: 100px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        transition-delay: .1s;
     }
 
     nav ul {
@@ -158,10 +179,11 @@ a.active,a:hover {
         width: 100%;
         height: 100vh;
         background: #F7F4F0;
-        top: 80px;
+        top: 100px;
         left: -100%;
         text-align: center;
         transition: all .5s;
+        transition-delay: .1s;
     }
 
     nav ul {
@@ -188,7 +210,6 @@ a.active,a:hover {
     .menu-logo {
         padding: 0 50px;
     }
-
 }
 
 @media (min-width: 1200px){
