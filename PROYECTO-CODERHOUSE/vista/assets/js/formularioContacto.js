@@ -3,7 +3,7 @@ const inputEmail = document.querySelector("#inputEmail");
 const inputSubject = document.querySelector("#inputSubject");
 const inputTextarea = document.querySelector("#inputTextarea");
 const contactForm = document.querySelector("#contact-form");
-const listP = document.querySelector("#warning").style.transition = "2s";
+const listP = document.querySelector("#warning");
 const answers = [];
 
 contactForm.addEventListener("submit", e => {
