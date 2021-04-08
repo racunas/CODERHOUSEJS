@@ -1,0 +1,13 @@
+.btn-contactar {
+    transition: .5s;
+}
+
+.btn-contactar:hover {
+    /* transform: scale(1.5); */
+    font-size: larger;
+    transition: .5s;
+    background-color: #cca353;
+    color: #F7F4F0;
+}
+
+/* ionic cap run ios -l -external */

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="vista/assets/css/menu.css">
     <link rel="stylesheet" href="vista/assets/css/slider.css">
     <link rel="stylesheet" href="vista/assets/css/products.css">
+    <link rel="stylesheet" href="vista/assets/css/formularioContacto.css">
     <link rel="stylesheet" href="vista/assets/css/footer.css">
     <link rel="stylesheet" href="vista/assets/css/valores.css">
 
@@ -40,7 +41,7 @@
     ?> -->
     <!-- MENU -->
     <div class="container-fluid" style="position: fixed; z-index: 10; padding-left: 0px; padding-right: 0px;">
-        <nav class="font" onclick="menuChange()" id="mainMenu">
+        <nav class="font" id="mainMenu">
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class='bx bx-menu' ></i>
@@ -143,6 +144,47 @@
         </div>
     </div>
     <!-- FIN PRODUCTOS -->
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <div class="container">
+        <div class="row font">
+            <div class="col-xl-6 text-center d-block">
+                <div class="pt-5 pb-3">
+                    <h1 style="font-weight: lighter;">Contáctanos</h1>
+                </div>
+                <div class="pt-3 pb-5">
+                    <img src="vista/assets/images/formulario-contacto.svg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-xl-6 d-flex align-items-center align-content-center">
+                <form style="font-weight: lighter;">
+                    <div class="form-group">
+                      <label for="inputName">Nombre</label>
+                      <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
+                      <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmai">Email</label>
+                      <input type="email" class="form-control" id="inputEmai" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie más.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSubject">Asunto</label>
+                        <input type="text" class="form-control" id="inputSubject" aria-describedby="subjectHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTextarea">¿Cómo podemos ayudarte?</label>
+                        <textarea class="form-control" id="inputTextarea" rows="3" aria-describedby="textAreaHelp"></textarea>
+                        <small id="textAreaHelp" class="form-text text-muted">Déjanos saber cómo podemos ayudarte.</small>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-contactar">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <!-- FIN FORMULARIO DE CONTACTO -->
 
     <!-- FOOTER -->
     <div class="container-fluid separador-footer pt-5 pb-5" style="background-color: #b1b2aa;" id="contacto">

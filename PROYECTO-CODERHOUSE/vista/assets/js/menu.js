@@ -52,61 +52,104 @@ window.onload = () => {
     }
 }
 
-const menuChange = function() {
-    let urlReference = window.location.href;
-    let urlSet = urlReference.split('/')[4];
-    console.log(urlSet);
-
-    switch(urlSet) {
-        case '':
-            let elementProductsEmpty = document.getElementById("menuShop");
-            elementProductsEmpty.classList.remove("active");
-            let elementContactoEmpty = document.getElementById("menuContacto");
-            elementContactoEmpty.classList.remove("active");
-            let elementEmpty = document.getElementById("menuNosotros");
-            elementEmpty.classList.add("active");
-        break;
-
-        case '#':
-            let elementProductsHash = document.getElementById("menuShop");
-            elementProductsHash.classList.remove("active");
-            let elementContactoHash = document.getElementById("menuContacto");
-            elementContactoHash.classList.remove("active");
-            let elementHash = document.getElementById("menuNosotros");
-            elementHash.classList.add("active");
-        break;
-
-        case '#nosotros':
-            let elementProductsNosotros = document.getElementById("menuShop");
-            elementProductsNosotros.classList.remove("active");
-            let elementContactoNosotros = document.getElementById("menuContacto");
-            elementContactoNosotros.classList.remove("active");
-            let elementNosotros = document.getElementById("menuNosotros");
-            elementNosotros.classList.add("active");
-        break;
-
-        case '#products':
-            let elementProductsProducts = document.getElementById("menuNosotros");
-            elementProductsProducts.classList.remove("active");
-            let elementContactoProducts = document.getElementById("menuContacto");
-            elementContactoProducts.classList.remove("active");
-            let elementProducts = document.getElementById("menuShop");
-            elementProducts.classList.add("active");
-        break;
-
-        case '#contacto':
-            let elementProductsContacto = document.getElementById("menuNosotros");
-            elementProductsContacto.classList.remove("active");
-            let elementContactoContacto = document.getElementById("menuShop");
-            elementContactoContacto.classList.remove("active");
-            let elementContacto = document.getElementById("menuContacto");
-            elementContacto.classList.add("active");
-        break;
-
-        default:
-            console.error("Hubo un error con el menú");
-    }
+const menuNosotros = document.querySelector('#menuNosotros');
+console.log(menuNosotros);
+menuNosotros.onclick = function() {
+    let elementProductsNosotros = document.getElementById("menuShop");
+    elementProductsNosotros.classList.remove("active");
+    let elementContactoNosotros = document.getElementById("menuContacto");
+    elementContactoNosotros.classList.remove("active");
+    let elementNosotros = document.getElementById("menuNosotros");
+    elementNosotros.classList.add("active");
 }
+
+const menuShop = document.querySelector('#menuShop');
+menuShop.onclick = function() {
+    let elementProductsProducts = document.getElementById("menuNosotros");
+    elementProductsProducts.classList.remove("active");
+    let elementContactoProducts = document.getElementById("menuContacto");
+    elementContactoProducts.classList.remove("active");
+    let elementProducts = document.getElementById("menuShop");
+    elementProducts.classList.add("active");
+}
+
+const menuContacto = document.querySelector('#menuContacto');
+menuContacto.onclick = function() {
+    let elementProductsContacto = document.getElementById("menuNosotros");
+    elementProductsContacto.classList.remove("active");
+    let elementContactoContacto = document.getElementById("menuShop");
+    elementContactoContacto.classList.remove("active");
+    let elementContacto = document.getElementById("menuContacto");
+    elementContacto.classList.add("active");
+}
+
+const menuCarrito = document.querySelector('#menuCarrito');
+console.log(menuCarrito);
+menuCarrito.onclick = function() {
+    let elementCarritoCarrito = document.getElementById("menuCarrito");
+    elementCarritoContacto.classList.add("active");
+    let elementNosotrosCarrito = document.getElementById("menuNosotros");
+    elementNosotrosCarrito.classList.remove("active");
+    let elementProductsCarrito = document.getElementById("menuShop");
+    elementProductsCarrito.classList.remove("active");
+    let elementContactoCarrito = document.getElementById("menuContacto");
+    elementContactoCarrito.classList.remove("active");
+}
+// const menuChange = function() {
+//     let urlReference = window.location.href;
+//     let urlSet = urlReference.split('/')[4];
+//     console.log(urlSet);
+
+//     switch(urlSet) {
+//         case '':
+//             let elementProductsEmpty = document.getElementById("menuShop");
+//             elementProductsEmpty.classList.remove("active");
+//             let elementContactoEmpty = document.getElementById("menuContacto");
+//             elementContactoEmpty.classList.remove("active");
+//             let elementEmpty = document.getElementById("menuNosotros");
+//             elementEmpty.classList.add("active");
+//         break;
+
+//         case '#':
+//             let elementProductsHash = document.getElementById("menuShop");
+//             elementProductsHash.classList.remove("active");
+//             let elementContactoHash = document.getElementById("menuContacto");
+//             elementContactoHash.classList.remove("active");
+//             let elementHash = document.getElementById("menuNosotros");
+//             elementHash.classList.add("active");
+//         break;
+
+//         case '#nosotros':
+//             let elementProductsNosotros = document.getElementById("menuShop");
+//             elementProductsNosotros.classList.remove("active");
+//             let elementContactoNosotros = document.getElementById("menuContacto");
+//             elementContactoNosotros.classList.remove("active");
+//             let elementNosotros = document.getElementById("menuNosotros");
+//             elementNosotros.classList.add("active");
+//         break;
+
+//         case '#products':
+//             let elementProductsProducts = document.getElementById("menuNosotros");
+//             elementProductsProducts.classList.remove("active");
+//             let elementContactoProducts = document.getElementById("menuContacto");
+//             elementContactoProducts.classList.remove("active");
+//             let elementProducts = document.getElementById("menuShop");
+//             elementProducts.classList.add("active");
+//         break;
+
+//         case '#contacto':
+//             let elementProductsContacto = document.getElementById("menuNosotros");
+//             elementProductsContacto.classList.remove("active");
+//             let elementContactoContacto = document.getElementById("menuShop");
+//             elementContactoContacto.classList.remove("active");
+//             let elementContacto = document.getElementById("menuContacto");
+//             elementContacto.classList.add("active");
+//         break;
+
+//         default:
+//             console.error("Hubo un error con el menú");
+//     }
+// }
 
 
 /*
