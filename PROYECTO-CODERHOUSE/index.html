@@ -157,28 +157,31 @@
                 </div>
             </div>
             <div class="col-xl-6 d-flex align-items-center align-content-center">
-                <form style="font-weight: lighter;">
+                <form style="font-weight: lighter;" id="contact-form">
                     <div class="form-group">
                       <label for="inputName">Nombre</label>
-                      <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
+                      <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" required>
                       <small id="nameHelp" class="form-text text-muted">Ingresa tu nombre completo</small>
                     </div>
                     <div class="form-group">
-                      <label for="inputEmai">Email</label>
-                      <input type="email" class="form-control" id="inputEmai" aria-describedby="emailHelp">
-                      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie más.</small>
+                      <label for="inputEmail">Email</label>
+                      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" required>
+                      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie más</small>
                     </div>
                     <div class="form-group">
                         <label for="inputSubject">Asunto</label>
-                        <input type="text" class="form-control" id="inputSubject" aria-describedby="subjectHelp">
+                        <input type="text" class="form-control" id="inputSubject" aria-describedby="subjectHelp" required>
                     </div>
                     <div class="form-group">
                         <label for="inputTextarea">¿Cómo podemos ayudarte?</label>
-                        <textarea class="form-control" id="inputTextarea" rows="3" aria-describedby="textAreaHelp"></textarea>
-                        <small id="textAreaHelp" class="form-text text-muted">Déjanos saber cómo podemos ayudarte.</small>
+                        <textarea class="form-control" id="inputTextarea" rows="3" aria-describedby="textAreaHelp" required></textarea>
+                        <small id="textAreaHelp" class="form-text text-muted">Déjanos saber cómo podemos ayudarte</small>
                     </div>
                     <div class="form-group text-center">
                         <button type="submit" class="btn btn-contactar">Enviar</button>
+                        <div class="form-group warning" id="warning">
+
+                        </div>
                     </div>
                   </form>
             </div>
@@ -252,6 +255,7 @@
 
     <script src="vista/assets/js/datos.js"></script>
     <script src="vista/assets/js/products.js"></script>
+    <script src="vista/assets/js/formularioContacto.js"></script>
     <script src="vista/assets/js/menu.js"></script>
 
     <script>

@@ -10,4 +10,15 @@
     color: #F7F4F0;
 }
 
+input:required {
+    color: #373d31;
+}
+
+.form-control::placeholder {
+    color: #cca353!important;
+}
+
+.warning {
+    transition: all .5s;
+}
 /* ionic cap run ios -l -external */
