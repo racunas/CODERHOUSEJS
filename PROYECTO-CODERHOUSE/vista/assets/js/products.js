@@ -59,9 +59,6 @@ soapProducts.forEach (Element => {
 
 });
 
-
-
-
 // <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 pb-5 font">
 //     <img src="vista/assets/images/soap-product.jpg" alt="" class="border-image-product" width="100%">
 //     <div class="card">
